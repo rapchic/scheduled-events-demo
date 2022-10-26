@@ -1,0 +1,31 @@
+{
+  "freshdesk_subdomain": {
+    "display_name": "Freshdesk subdomain",
+    "description": "Please enter your Freshdesk subdomain.",
+    "type": "domain",
+    "type_attributes": {
+      "product": "freshdesk"
+    },
+    "required": true
+  },
+  "freshdesk_api_key": {
+    "display_name": "Freshdesk API key",
+    "description": "Please enter your Freshdesk API key",
+    "type": "api_key",
+    "secure": true,
+    "required": true,
+    "type_attributes": {
+      "product": "freshdesk"
+    }
+  },
+  "ticket_count":{
+    "display_name": "Number of tickets",
+    "description": "Please enter the number fo tickets to be created",
+    "type": "number",
+    "secure": false,
+    "required": true,
+    "type_attributes": {
+      "product": "freshdesk"
+  }
+ }
+}

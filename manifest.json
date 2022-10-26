@@ -1,0 +1,41 @@
+
+{
+  "platform-version": "2.2",
+  "product": {
+    "freshdesk": {
+      "location": {
+        "ticket_sidebar": {
+          "url": "index.html",
+          "icon": "styles/images/icon.svg"
+        }
+      },
+        "events": {
+          "onAppInstall": {
+             "handler": "onAppInstallCallback"
+          },
+           "onScheduledEvent": {
+               "handler": "onScheduledEventHandler"
+          }
+       },
+       "functions": {
+        "createSchedule": {
+          "timeout": 15
+        }
+      }
+    }
+  },
+  
+
+  "whitelisted-domains": [
+    "https://*.freshdesk.com"
+  ],
+  "dependencies": {
+    "request": "2.88.2",
+    "base-64": "1.0.0",
+    "request-promise": "4.2.6"
+  },
+  "engines": {
+    "node": "14.20.0",
+    "fdk": "8.6.4"
+  }
+}

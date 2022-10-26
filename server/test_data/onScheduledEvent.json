@@ -1,0 +1,11 @@
+{
+  "timestamp": 1496400354326,
+  "account_id": "13",
+  "domain": "help5589.freshdesk.com",
+  "event": "onScheduledEvent",
+  "region": "US",
+  "data": {
+    "ticket_index": "79",
+    "ticket_count": 80
+  }
+}
